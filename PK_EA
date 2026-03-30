@@ -70,13 +70,13 @@
         
 
         let uid = liff.getDecodedIDToken().sub
-$.post('https://script.google.com/macros/s/AKfycbxJ-S4x1wbQHDbBdN5LUjRZoZd1XmMG0iJX05PayjYTpXK2RwdXoNgxBmvMLZK1GtXf/exec', { opt: 'register', id: id,fname:fname, uid: uid }, function (res) {
+$.post('https://script.google.com/macros/s/AKfycby2drlqxcPXtQ41igm0dfO96olpG3ZHGnoMTW1eI8NBGFhqSYQRkuUColgHiGYUFQ/exec', { opt: 'register', id: id,fname:fname, uid: uid }, function (res) {
             if (res != 'yes') {
               console.log(res)
               alert('🚫เข้าสู่ระบบไม่สำเร็จ\n✅รหัสสมาชิก(ถูกต้อง)\n❌ชื่อผิด!!!')
               liff.closeWindow()
             }else{
-               alert('✅ เข้าสู่ระบบเรียบร้อยแล้ว')
+               alert('✅เข้าสู่ระบบเรียบร้อยแล้ว')
                  $("#submit-btn").show()
                 $("#bt2").hide()
                 liff.closeWindow()
