@@ -50,7 +50,7 @@
     $("#bt2").hide()
     $(document).ready(() => {
         liff.init({
-            liffId: '2005706066-rn6oAzq5',
+            liffId: '2009651859-UeYgZHD5',
             withLoginOnExternalBrowser: true
         })
 
